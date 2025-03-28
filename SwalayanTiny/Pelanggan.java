@@ -21,8 +21,8 @@ public class Pelanggan {
         return noPel;
      }
 
-    public boolean checkPin(String inputPin){
-        if (pin == inputPin){
+     public boolean checkPin(String inputPin){
+        if (pin.equals(inputPin)){  
             salahPin = 0;
             return true;
         } else {

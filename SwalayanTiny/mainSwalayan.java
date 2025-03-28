@@ -4,8 +4,8 @@ public class mainSwalayan {
     public static void main(String[] args) {
         Pelanggan[] listPelanggan = {
             new Pelanggan(500000, "3812345678", "Ali", "1234"),
-            new Pelanggan(1000000, "3812345678", "Radi", "1234"),
-            new Pelanggan(1500000, "3812345678", "Laras", "1234")
+            new Pelanggan(1000000, "5612345678", "Radi", "1234"),
+            new Pelanggan(1500000, "7412345678", "Laras", "1234")
         };
 
         Scanner sc = new Scanner(System.in);
